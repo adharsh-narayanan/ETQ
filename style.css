@@ -1,0 +1,285 @@
+*{
+    overflow-x: hidden;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+nav{
+    margin-top: 50px;
+   background-color: transparent;   
+   position: absolute; 
+   top:0;
+   z-index: 0;
+  transition: 0.2 linear;
+  
+}
+.nav1{
+    color: white;
+}
+header:hover .navbar{
+    background-color: rgba(255, 255, 255, 0.735);
+    color: black;
+    border: 1px solid black;
+   position: fixed;
+   width: 100%;
+ 
+
+}
+.navbar-brand{
+    color: white;
+}
+header:hover.navbar-brand{
+    color:black;
+}
+header:hover .nav1{
+    color: rgb(0, 0, 0);
+}
+.navbar-brand{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+}
+.row1{
+    background-image: url(./asgnmnt/DESKTOP_1_640x.webp);
+    background-size:cover;   
+    background-repeat: no-repeat;
+    height: 100vh;
+
+
+}
+.home{
+    cursor: pointer;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+   
+}
+.home-text{
+    width: 100%;
+    height: 100vh;
+    padding-left: 30px;
+    text-align: left;
+    overflow: hidden; 
+    margin-top: 40%;
+    
+}
+.home-text h4,h2{
+    width: 100%;
+    overflow: hidden;
+}
+.home-text h2{
+    font-weight: 100px;
+}
+.home:hover > nav {
+    background-color: rgba(255, 255, 255, 0.967);
+}
+
+.box{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    
+}
+.info{
+    display: grid;
+    cursor: pointer;    
+    grid-template-columns: 250px 250px;
+
+}
+.info-img{
+    
+    width: 100%;
+    object-fit: cover;
+    height:250px;
+    overflow-y: hidden;
+    
+}
+
+.info-text{ 
+    height: auto;
+    margin-top: 30%;
+   
+}
+
+.info-text h5{
+    overflow-y: hidden;
+    font-size: 15px;
+    font-weight: 500;
+}
+.info-text p{
+    overflow-y: hidden;
+    font-size: 15px;
+    font-weight: 100;
+}
+.info-text a{
+    overflow-y: hidden;
+    font-size: 12px;
+   color: black;
+   font-weight: 100;
+}
+
+
+
+/* fav  */
+.fav-img{
+    height: 500px;
+}
+.fav{    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 40px;
+
+}
+.fav-title{
+    margin-bottom:50px;     
+}
+.fav-title h2{
+    font-weight: 400;
+}
+
+.fav-text h5{
+    
+    font-size: 15px;
+    font-weight: 600px;
+    overflow: hidden;
+}
+
+.fav-text h6{
+    font-size: 12px;
+    font-weight: 400px;
+    color: red;
+    overflow: hidden;
+}
+.fav-text p span{
+    color: grey;
+    text-decoration:line-through;
+    font-size: 15px;
+}
+
+
+
+
+.collection{
+  margin:100px auto auto;
+  padding: 40px;
+  cursor: pointer;
+}
+
+.ggg{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    
+}
+.collec{
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.collec-text{
+    margin-top: 10px;
+}
+.collec-text p{
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.footer{
+    margin:100px auto auto;
+    padding: 30px;
+}
+.footer h6{
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: 600px;
+}
+.footer a{
+    font-size: 15px;
+}
+footer{
+    padding: 30px;
+}
+.letter{
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    width: 80%;
+   
+}
+.privacy{
+    font-size: 12px ;
+    color: rgb(183, 183, 183);
+}
+.privacy a{
+    color: rgb(183, 183, 183);
+}
+.terms a{
+    font-size: 10px; 
+    color: rgb(64, 64, 64);
+}
+
+.aclass1{
+    position: relative;
+    overflow-y: hidden;
+} 
+
+.aclass::after{
+    content: "";
+    position: absolute;
+    text-align:left;  
+    display: block;  
+    width: 0%;
+    height: 1px;
+    background-color: #000000;
+    transition:ease-out 0.5s;
+    right: 0;
+   
+}
+.aclass:hover:after {
+    width:100%;
+    left: auto;
+  right: auto;
+}   
+
+.aclass1::after{
+    content: "";
+    position: absolute;
+    text-align:left;  
+    display: block;  
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+    transition:ease-out 0.5s;   
+    right: auto;
+    left: auto;
+}
+.aclass1:hover:after {
+    width:0%;
+    
+    right: 0; 
+     
+  
+   
+}
+
+.banner{
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
