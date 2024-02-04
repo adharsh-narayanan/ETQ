@@ -283,3 +283,19 @@ footer{
     font-weight: 500;
     margin-bottom: 20px;
 }
+
+.modall{
+    position: absolute;
+
+    background-color: white;
+}
+
+.footwear:hover + .modall{
+    display: none;
+    width: 100%;
+}
+select{
+    border: none;
+    color: rgb(30, 30, 30);
+    background-color: rgb(248, 246, 246);
+}
