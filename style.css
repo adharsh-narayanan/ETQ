@@ -92,6 +92,10 @@ header{
     text-align: center;
     
 }
+
+.sec-2{
+    margin: 30px;
+}
 .info{
     display: grid;
     cursor: pointer;    
@@ -221,6 +225,9 @@ footer{
     width: 80%;
    
 }
+.info{
+    color: #000000;
+}
 .privacy{
     font-size: 12px ;
     color: rgb(183, 183, 183);
@@ -298,4 +305,35 @@ select{
     border: none;
     color: rgb(30, 30, 30);
     background-color: rgb(248, 246, 246);
+}
+
+.icons{display: flex;}
+
+@media(max-width:700px) {
+    .row1{
+        background-image: url(./asgnmnt/MOBIEL_NIEUW_2048x.webp);
+        background-size:cover;   
+        background-repeat: no-repeat;
+}
+.home-text{
+    color: white;
+    position: absolute;
+    left: 0;    
+}
+.info{    
+    grid-template-columns: 100%;
+    margin-bottom: 20px;
+}
+.carousel-item{
+    height: 350px;
+    overflow: hidden;
+}
+.ggg{
+    width: 100%;
+    object-fit: contain;
+}
+.social, .infom,.about,.address,.contact{
+    margin-bottom: 50px;
+}
+
 }
